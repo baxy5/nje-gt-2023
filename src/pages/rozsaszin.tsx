@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const rozsaszin = ({ rozsaszin }) => {
+const Rozsaszin = ({ rozsaszin }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -112,4 +112,4 @@ const rozsaszin = ({ rozsaszin }) => {
   );
 };
 
-export default rozsaszin;
+export default Rozsaszin;

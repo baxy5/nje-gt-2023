@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const lila = ({ lila }) => {
+const Lila = ({ lila }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const lila = ({ lila }) => {
   );
 };
 
-export default lila;
+export default Lila;

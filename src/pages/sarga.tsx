@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const sarga = ({ sarga }) => {
+const Sarga = ({ sarga }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const sarga = ({ sarga }) => {
   );
 };
 
-export default sarga;
+export default Sarga;

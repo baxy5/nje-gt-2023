@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const szurke = ({ szurke }) => {
+const Szurke = ({ szurke }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const szurke = ({ szurke }) => {
   );
 };
 
-export default szurke;
+export default Szurke;

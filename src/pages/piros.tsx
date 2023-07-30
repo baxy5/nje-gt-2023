@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const piros = ({ piros }) => {
+const Piros = ({ piros }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const piros = ({ piros }) => {
   );
 };
 
-export default piros;
+export default Piros;

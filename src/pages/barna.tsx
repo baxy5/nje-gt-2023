@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const barna = ({ barna }) => {
+const Barna = ({ barna }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const barna = ({ barna }) => {
   );
 };
 
-export default barna;
+export default Barna;

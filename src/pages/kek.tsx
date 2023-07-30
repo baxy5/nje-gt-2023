@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const kek = ({ kek }) => {
+const Kek = ({ kek }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -109,4 +109,4 @@ const kek = ({ kek }) => {
   );
 };
 
-export default kek;
+export default Kek;

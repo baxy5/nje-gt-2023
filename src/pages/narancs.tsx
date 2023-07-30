@@ -16,7 +16,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const narancs = ({ narancs }) => {
+const Narancs = ({ narancs }) => {
   const [points, setPoints] = useState(0);
   const [desc, setDesc] = useState('');
   const [bonusPoints, setBonusPoints] = useState(0);
@@ -112,4 +112,4 @@ const narancs = ({ narancs }) => {
   );
 };
 
-export default narancs;
+export default Narancs;
