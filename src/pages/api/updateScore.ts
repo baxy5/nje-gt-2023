@@ -4,7 +4,7 @@ import prisma from '../../../lib/prisma';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const data = req.body;
 
-  if (data.points! < 10 && data.bonusPoints! < 5) {
+  if (data.points <= 10 && data.bonusPoints <= 5) {
     await prisma.csapat.update({
       where: {
         id: data.id,
