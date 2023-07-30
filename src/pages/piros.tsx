@@ -58,8 +58,8 @@ const Piros = ({ piros }) => {
             <input
               type="number"
               min="0"
-              max="10"
-              placeholder="max 10"
+              max="25"
+              placeholder="max 25"
               className="border border-black rounded-md w-16"
               onChange={event => setPoints(Number(event.target.value))}
             />
