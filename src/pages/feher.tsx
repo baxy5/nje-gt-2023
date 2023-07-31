@@ -35,6 +35,7 @@ const Feher = ({ feher }) => {
 
       if (response.ok) {
         console.log('Data sent successfully');
+        console.log(response);
       } else {
         console.error('Failed to send data');
       }
@@ -45,7 +46,7 @@ const Feher = ({ feher }) => {
 
   return (
     <div>
-      <div className="border-2 border-black rounded-md p-4" style={{ backgroundColor: teamColorCheck(feher[0].name) }}>
+      <div className="border-2 border-black p-4" style={{ backgroundColor: teamColorCheck(feher[0].name) }}>
         <h1 className="text-[2rem] text-center">
           {feher[0].name}:<span className="pl-2">{feher[0].points}</span>
         </h1>
@@ -98,10 +99,7 @@ const Feher = ({ feher }) => {
         <p>{feher[0].description}</p>
       </div>
       <Link href="/">
-        <div
-          className="border-2 border-black rounded-md p-4 text-center"
-          style={{ backgroundColor: teamColorCheck(feher[0].name) }}
-        >
+        <div className="border-2 border-black p-4 text-center" style={{ backgroundColor: teamColorCheck(feher[0].name) }}>
           Vissza a ranglistára
         </div>
       </Link>

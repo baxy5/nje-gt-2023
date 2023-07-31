@@ -45,10 +45,7 @@ const Narancs = ({ narancs }) => {
 
   return (
     <div>
-      <div
-        className="border-2 border-black rounded-md p-4"
-        style={{ backgroundColor: teamColorCheck(narancs[0].name) }}
-      >
+      <div className="border-2 border-black p-4" style={{ backgroundColor: teamColorCheck(narancs[0].name) }}>
         <h1 className="text-[2rem] text-center text-[#FFFFFF]">
           {narancs[0].name}:<span className="pl-2">{narancs[0].points}</span>
         </h1>
@@ -102,7 +99,7 @@ const Narancs = ({ narancs }) => {
       </div>
       <Link href="/">
         <div
-          className="border-2 border-black rounded-md p-4 text-center"
+          className="border-2 border-black text-[#FFFFFF] p-4 text-center"
           style={{ backgroundColor: teamColorCheck(narancs[0].name) }}
         >
           Vissza a ranglistára

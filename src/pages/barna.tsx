@@ -45,7 +45,7 @@ const Barna = ({ barna }) => {
 
   return (
     <div>
-      <div className="border-2 border-black rounded-md p-4" style={{ backgroundColor: teamColorCheck(barna[0].name) }}>
+      <div className="border-2 border-black p-4" style={{ backgroundColor: teamColorCheck(barna[0].name) }}>
         <h1 className="text-[2rem] text-center text-[#FFFFFF]">
           {barna[0].name}:<span className="pl-2">{barna[0].points}</span>
         </h1>
@@ -99,7 +99,7 @@ const Barna = ({ barna }) => {
       </div>
       <Link href="/">
         <div
-          className="border-2 border-black rounded-md p-4 text-center"
+          className="border-2 border-black p-4 text-center"
           style={{ backgroundColor: teamColorCheck(barna[0].name) }}
         >
           Vissza a ranglistára

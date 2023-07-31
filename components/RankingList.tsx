@@ -10,7 +10,7 @@ const RankingList = ({ teams }: { teams: any }) => {
         return (
           <Link href={teamLink(team.name)} key={team.id}>
             <div
-              className="border-2 border-black rounded-md p-4"
+              className="border-2 border-black rounded-sm p-4"
               style={{ backgroundColor: teamColorCheck(team.name) }}
             >
               <p

@@ -45,7 +45,7 @@ const Kek = ({ kek }) => {
 
   return (
     <div>
-      <div className="border-2 border-black rounded-md p-4" style={{ backgroundColor: teamColorCheck(kek[0].name) }}>
+      <div className="border-2 border-black p-4" style={{ backgroundColor: teamColorCheck(kek[0].name) }}>
         <h1 className="text-[2rem] text-center text-[#FFFFFF]">
           {kek[0].name}:<span className="pl-2">{kek[0].points}</span>
         </h1>
@@ -99,7 +99,7 @@ const Kek = ({ kek }) => {
       </div>
       <Link href="/">
         <div
-          className="border-2 border-black rounded-md p-4 text-center"
+          className="border-2 border-black text-[#FFFFFF] p-4 text-center"
           style={{ backgroundColor: teamColorCheck(kek[0].name) }}
         >
           Vissza a ranglistára
