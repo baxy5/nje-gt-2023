@@ -6,7 +6,7 @@ const Ranking = ({ teams }: { teams: any }) => {
     <div className="py-8 px-4 grid gap-4">
       {teams.map(team => {
         return (
-          <div className="border-2 border-black rounded-sm p-4" style={{ backgroundColor: teamColorCheck(team.name) }}>
+          <div key={team.id} className="border-2 border-black rounded-sm p-4" style={{ backgroundColor: teamColorCheck(team.name) }}>
             <p
               className={`text-[1.5rem] ${
                 team.name === 'Fehér csapat' || team.name === 'Sárga csapat' ? 'text-[#000000]' : 'text-[#FFFFFF]'
