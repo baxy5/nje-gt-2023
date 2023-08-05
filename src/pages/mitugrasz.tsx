@@ -18,7 +18,7 @@ export const getStaticProps: GetStaticProps = async () => {
   };
 };
 
-const Szervezo = ({ csapatok }) => {
+const Mitugrasz = ({ csapatok }) => {
   return (
     <div>
       <div className="bg-[#F4BB44] py-4 flex flex-col justify-center items-center">
@@ -31,4 +31,4 @@ const Szervezo = ({ csapatok }) => {
   );
 };
 
-export default Szervezo;
+export default Mitugrasz;
